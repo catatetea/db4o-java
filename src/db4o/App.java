@@ -17,8 +17,8 @@ public class App{
 	public static void main(String[] args) throws ParseException {
 		ObjectContainer db = initDb();
 		
-		// showAllDB(db);
-		// queryRRByCost(db, 10000);
+		showAllDB(db);
+		queryRRByCost(db, 10000);
 		queryMechanicByName(db, "Виктор");
 		
 		db.close();
